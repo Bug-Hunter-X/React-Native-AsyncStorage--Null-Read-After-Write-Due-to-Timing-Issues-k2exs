@@ -1,0 +1,1 @@
+This React Native bug arises when using AsyncStorage to store and retrieve data.  The issue is that if you try to retrieve data before it's been fully written, you might get a null value even though the data has been stored correctly. This often leads to unexpected behavior, crashes, or incorrect rendering in your application. The timing of reads and writes is the core problem.
